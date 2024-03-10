@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: -0.02px;
+
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    width: 1280px;
+    height: 100vh;
+    margin: auto auto;
+    align-items: center;
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+
+}
+
+section.contorno-bilhete {
+    width: 327px;
+    height: 544px;
+    margin: auto auto;
+    gap: 20px;
+    background-color: white;
+    border-radius: 24px;
+
+
+
+
+}
+
+section.contorno-bilhete>section.card-top {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 191;
+    padding: 24px 32px;
+    gap: 24px;
+    border-bottom: 1px dashed #000000;
+
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 263px;
+    height: 36px;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-value {
+    text-align: left;
+    width: 50px;
+    height: 36;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-value>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #000000A3;
+
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-value>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000E0;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-date {
+    text-align: right;
+    width: 94px;
+    height: 36px;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-date>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #000000A3;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-header>div.top-header-date>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000E0;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 263px;
+    height: 83px;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom>div.top-bottom-origin {
+    width: 103px;
+    height: 83px;
+
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom p.bottom-origin-a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #000000A3;
+    white-space: nowrap;
+}
+
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom>div.top-bottom-destiny {
+    width: 121px;
+    height: 83px;
+    text-align: end;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom p.bottom-origin-b {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.96px;
+    color: #000000CC;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom span {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47.4px;
+    color: #000000E0;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom {
+    position: relative;
+}
+
+section.contorno-bilhete>section.card-top>div.card-top-bottom>img {
+    bottom: 35%;
+    left: 48%;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    color: #000000CC;
+
+}
+
+section.card-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 327px;
+    height: 84px;
+    padding: 24px 32px;
+    border-bottom: 1px dashed #000000;
+
+}
+
+div.card-middle {
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    height: 36px;
+
+}
+
+div.passageiro>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #000000A3;
+
+}
+
+div.passageiro>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.96px;
+    color: #000000E0;
+
+}
+
+div.assento>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    color: #000000A3;
+
+}
+
+div.assento>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.96px;
+    color: #000000E0;
+}
+
+section.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 327px;
+    height: 269px;
+    padding: 24px 32px;
+}
+
+section.txt-qr {
+    display: flex;
+    align-items: center;
+    width: 263px;
+    height: 177px;
+    row-gap: 8px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 95px;
+    height: 150px;
+    column-gap: 16px;
+
+}
+
+div.list {
+    display: flex;
+    flex-direction: column;
+    width: 95px;
+    height: 150px;
+    gap: 16px;
+
+}
+
+div.image-qr {
+    width: 160px;
+    height: 177px;
+}
+
+div.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+div.box>img {
+    width: 140px;
+    height: 140px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+div.box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+span.grupo {
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.96);
+    white-space: nowrap;
+}
+
+footer.atention {
+    display: flex;
+    justify-content: center;
+    width: 263px;
+    height: 20px;
+}
+
+footer.atention>p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.atencao {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.embarque,
+.terminal,
+.portao {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: auto;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.number {
+    width: 54px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+    color: rgba(0, 0, 0, 0.88);
+
+}
+
+.padding {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    width: 54px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+    color: rgba(255, 255, 255, 1);
+    padding: 4px 8px;
+    background-color: rgba(99, 59, 188, 1);
+    row-gap: 8px;
+    border-radius: 8px;
+}
